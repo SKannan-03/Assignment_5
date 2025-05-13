@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 10f;
-    public float jumpSpeed = 8f;
+    public float jumpSpeed = 4f;
     public Transform respawnPoint; // Assign this in the Inspector
 
     private float direction = 0f;
